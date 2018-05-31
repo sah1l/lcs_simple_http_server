@@ -9,4 +9,4 @@ payload = {"setOfStrings":[{"value":"Nothing is mortal"},
 #payload = {"setOfStrings":[]} # to check empty Set
 #payload = {} # to check empty body
 res = requests.post(url, data=json.dumps(payload))
-print res.json()
+print(res.json())
